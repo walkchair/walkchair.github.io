@@ -16,23 +16,43 @@
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+
   </head>
   <body>
-    <center>
-      <h1>Walkchair</h1>
-      <img src="/img/walkchair.png" width="200px" />
-      <h2>Exploring powerchairs with legs instead of (or in addition to) wheels</h2>
-      <p>
-        <a data-pin-do="embedBoard" href="http://www.pinterest.com/walkchair/interesting-technology/" data-pin-scale-width="80" data-pin-scale-height="320" data-pin-board-width="400">Follow Walk Chair's board Interesting Technology on Pinterest.</a>
-        <!-- Please call pinit.js only once per page -->
-        <script type="text/javascript" async src="//assets.pinterest.com/js/pinit.js"></script>
-        <br />
-        <a class="twitter-timeline" href="https://twitter.com/walkchairrobot" data-widget-id="439534489253855232">Tweets by @walkchairrobot</a>
-        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-
-      </p>
-    </center>
-
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=152345478124198";
+    fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <center>
+            <h1>Walkchair</h1>
+            <img src="/img/walkchair.png" width="200px" />
+            <h2>Exploring powerchairs with legs instead of (or in addition to) wheels</h2>
+          </center>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <a data-pin-do="embedBoard" href="http://www.pinterest.com/walkchair/interesting-technology/" data-pin-scale-width="80" data-pin-scale-height="320" data-pin-board-width="400">Follow Walk Chair's board Interesting Technology on Pinterest.</a>
+          <!-- Please call pinit.js only once per page -->
+          <script type="text/javascript" async src="//assets.pinterest.com/js/pinit.js"></script>
+        </div>
+        <div class="col-md-4">
+          <a class="twitter-timeline" href="https://twitter.com/walkchairrobot" data-widget-id="439534489253855232">Tweets by @walkchairrobot</a>
+          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+        </div>
+        <div class="col-md-4">
+          <div class="fb-like-box" data-href="http://www.facebook.com/walkchair" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="false" data-show-border="true"></div>
+        </div>
+      </div>
+    </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
